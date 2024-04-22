@@ -4,6 +4,8 @@ import {
   addNewAdmin,
   getAllDoctors,
   getUserDetails,
+  logoutAdmin,
+  logoutPatient,
   login,
 } from "../controller/userController.js";
 
@@ -21,5 +23,7 @@ router.post("/admin/addnew",isAdminAuthenticated, addNewAdmin);
 router.get("/admin/me", isAdminAuthenticated, getUserDetails);
 router.get("/patient/me", isPatientAuthenticated, getUserDetails);
 router.get("/doctors", getAllDoctors);
+router.get("/patient/logout", isPatientAuthenticated, logoutPatient);
+router.get("/admin/logout", isAdminAuthenticated, logoutAdmin);
 
 export default router;
