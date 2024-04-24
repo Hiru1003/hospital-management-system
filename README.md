@@ -7,7 +7,7 @@ Welcome to our Hospital Management System! This web application is designed to s
 ## Features :
 Patient Authentication<br/>
 Patient Management<br/>
-Doctor Dashboard<br/>
+Doctor Dashboard <br/>
 Doctor Management<br/>
 Appointment Scheduling<br/>
 
@@ -15,5 +15,5 @@ Appointment Scheduling<br/>
 Frontend: React.js <br/>
 Backend: Express.js, MongoDB (Mongoose)<br/>
 Authentication: JSON Web Tokens (JWT)<br/>
-API Testing: Postman<br/>
+API Testing: Postman <br/>
 
