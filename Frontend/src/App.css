@@ -151,12 +151,12 @@ h6 {
 }
 .form-component {
   padding-top: 40px;
-  padding-bottom: 60px;
+  padding-bottom: 100px;
 }
 .form-component h2 {
   color: gray;
   letter-spacing: 4px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .form-component h4 {
   color: gray;
@@ -181,10 +181,10 @@ h6 {
 .form-component form select,
 .form-component form textarea {
   flex: 1;
-  font-size: 24px;
-  padding: 10px 10px 10px 40px;
+  font-size: 20px;
+  padding: 20px 20px 20px 40px;
   border-radius: 7px;
-  border: 1px solid gray;
+  border: 1px solid rgb(24, 21, 21);
 }
 .form-component button {
   padding: 10px 35px;
@@ -195,7 +195,7 @@ h6 {
   border-radius: 8px;
   font-size: 24px;
   margin-bottom: 30px;
-  background: linear-gradient(140deg, #9083d5, #271776ca);
+  background: linear-gradient(140deg, #e7ccf9, #79b1c4ca);
 }
 .form-component .wrapper {
   display: flex;
@@ -268,7 +268,8 @@ h6 {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  letter-spacing: 2px;
+  gap: 15px;
 }
 .biography .banner h3 {
   font-weight: 700;
@@ -277,6 +278,7 @@ h6 {
 .biography .banner p:first-child {
   font-size: 24px;
   letter-spacing: 2px;
+  
 }
 @media (max-width: 925px) {
   .biography {
@@ -384,11 +386,11 @@ footer .content div:last-child div svg {
 }
 
 .departments {
-  padding-top: 30px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 150px;
 }
 .departments h2 {
-  color: gray;
+  color: rgb(2, 2, 2);
   margin-bottom: 30px;
 }
 .card {
@@ -415,14 +417,14 @@ footer .content div:last-child div svg {
 }
 .card .depart-name {
   margin-bottom: 30px;
-  background: #e5e5e5;
-  width: 320px;
-  font-size: 24px;
+  background: #cfcdcd;
+  width: 300px;
+  font-size: 22px;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
   padding: 12px;
-  border-radius: 30px;
+  border-radius: 10px;
   left: 0;
   height: fit-content;
   font-weight: 700;
