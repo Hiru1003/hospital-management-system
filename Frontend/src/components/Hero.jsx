@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Hero = ({ title, imageUrl }) => {
   return (
@@ -23,7 +23,7 @@ const Hero = ({ title, imageUrl }) => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
