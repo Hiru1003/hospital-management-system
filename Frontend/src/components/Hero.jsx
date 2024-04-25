@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Hero = () => {
+const Hero = ({ title, imageUrl }) => {
   return (
     <>
       <div className="hero container">
