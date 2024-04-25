@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Biography = () => {
+const Biography = ({imageUrl}) => {
   return (
     <>
     <div className="container biography">
