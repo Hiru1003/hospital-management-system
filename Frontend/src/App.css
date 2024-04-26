@@ -54,6 +54,10 @@ h6 {
   font-size: 24px;
   font-weight: 700;
 }
+
+.img-logo{
+  width: 200px;
+}
 @media (max-width: 1186px) {
   h1 {
     font-size: 32px;
@@ -324,7 +328,7 @@ footer .content div:nth-child(3) {
   flex: 2;
 }
 footer .content div h4 {
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 footer .content div ul {

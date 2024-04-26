@@ -18,7 +18,7 @@ const Appointment = () => {
           </p>
         </div>
         <div className="banner">
-          <img src={"/signin.png"} alt="hero" className="animated-image" />
+          <img src={"/appoinment.png"} alt="hero"  />
           <span>
             <img src="/Vector.png" alt="vector" />
           </span>
