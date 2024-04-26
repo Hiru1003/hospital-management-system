@@ -5,7 +5,7 @@ const Hero = ({ title, imageUrl }) => {
     <>
       <div className="hero container">
         <div className="banner">
-          <h1>{title}</h1>
+          <h1>{"Welcome to ZeeCare Medical Institute | Your Trusted Healthcare Provider"}</h1>
           <p>
             ZeeCare Medical Institute is a state-of-the-art facility dedicated
             to providing comprehensive healthcare services with compassion and
@@ -16,7 +16,7 @@ const Hero = ({ title, imageUrl }) => {
           </p>
         </div>
         <div className="banner">
-          <img src={imageUrl} alt="hero" className="animated-image" />
+          <img src={"/hero.png"} alt="hero" className="animated-image" />
           <span>
             <img src="/Vector.png" alt="vector" />
           </span>
