@@ -75,7 +75,7 @@ h6 {
 .hero {
   display: flex;
   gap: 50px;
-  padding-top: 120px;
+  padding-top: 180px;
   padding-bottom: 120px;
   position: relative;
 }
@@ -254,9 +254,9 @@ h6 {
 }
 .biography {
   display: flex;
-  gap: 50px;
-  padding-top: 40px;
-  padding-bottom: 60px;
+  gap: 60px;
+  padding-top: 70px;
+  padding-bottom: 90px;
 }
 .biography .banner:first-child {
   flex: 1;
